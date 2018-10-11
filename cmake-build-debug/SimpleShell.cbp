@@ -93,6 +93,12 @@
 		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/main.c">
 			<Option target="SimpleShell"/>
 		</Unit>
+		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/process.c">
+			<Option target="SimpleShell"/>
+		</Unit>
+		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/process.h">
+			<Option target="SimpleShell"/>
+		</Unit>
 		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/shell.c">
 			<Option target="SimpleShell"/>
 		</Unit>

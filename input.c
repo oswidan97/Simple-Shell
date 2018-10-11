@@ -20,8 +20,6 @@ char ** getInput(){
     char *commandAsPointer=malloc((size_t) len); //casting to match the function's parameter
     //copy to to the char * to be able to return it
     strncpy(commandAsPointer,command,(size_t)len);
-    //printf("%s",command);
-
     return tokenizer(commandAsPointer);
 }
 char ** tokenizer(char * command){
@@ -41,7 +39,7 @@ char ** tokenizer(char * command){
     }
 
 
-    //free(command);
+
     return tokens;
 
 }

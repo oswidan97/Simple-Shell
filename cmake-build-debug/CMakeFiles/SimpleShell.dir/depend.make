@@ -7,7 +7,11 @@ CMakeFiles/SimpleShell.dir/input.c.o: ../input.h
 CMakeFiles/SimpleShell.dir/main.c.o: ../main.c
 CMakeFiles/SimpleShell.dir/main.c.o: ../shell.h
 
+CMakeFiles/SimpleShell.dir/process.c.o: ../process.c
+CMakeFiles/SimpleShell.dir/process.c.o: ../process.h
+
 CMakeFiles/SimpleShell.dir/shell.c.o: ../input.h
+CMakeFiles/SimpleShell.dir/shell.c.o: ../process.h
 CMakeFiles/SimpleShell.dir/shell.c.o: ../shell.c
 CMakeFiles/SimpleShell.dir/shell.c.o: ../shell.h
 

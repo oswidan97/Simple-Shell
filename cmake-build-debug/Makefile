@@ -177,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/main.c.s
 .PHONY : main.c.s
 
+process.o: process.c.o
+
+.PHONY : process.o
+
+# target to build an object file
+process.c.o:
+	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/process.c.o
+.PHONY : process.c.o
+
+process.i: process.c.i
+
+.PHONY : process.i
+
+# target to preprocess a source file
+process.c.i:
+	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/process.c.i
+.PHONY : process.c.i
+
+process.s: process.c.s
+
+.PHONY : process.s
+
+# target to generate assembly for a file
+process.c.s:
+	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/process.c.s
+.PHONY : process.c.s
+
 shell.o: shell.c.o
 
 .PHONY : shell.o
@@ -219,6 +246,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... process.o"
+	@echo "... process.i"
+	@echo "... process.s"
 	@echo "... shell.o"
 	@echo "... shell.i"
 	@echo "... shell.s"
