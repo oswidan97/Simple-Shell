@@ -5,6 +5,7 @@
 #ifndef SIMPLESHELL_PROCESS_H
 #define SIMPLESHELL_PROCESS_H
 
+void execute(char *command,char **args);
 void executeInForeground(char *command,char **args);
 
 void executeInBackground(char *command,char **args);

@@ -25,6 +25,8 @@ zconf.h
 -
 stdlib.h
 -
+signal.h
+-
 shell.h
 /home/omar_swidan/CLionProjects/SimpleShell/shell.h
 
@@ -32,6 +34,10 @@ shell.h
 zconf.h
 -
 sys/wait.h
+-
+string.h
+-
+stdlib.h
 -
 process.h
 /home/omar_swidan/CLionProjects/SimpleShell/process.h
