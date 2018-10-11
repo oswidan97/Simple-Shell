@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/SimpleShell.dir/main.c.o CMakeFiles/SimpleShell.dir/shell.c.o CMakeFiles/SimpleShell.dir/input.c.o  -o SimpleShell 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/omar_swidan/CLionProjects/SimpleShell/input.c
+input.h
+/home/omar_swidan/CLionProjects/SimpleShell/input.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/home/omar_swidan/CLionProjects/SimpleShell/input.h
+
+/home/omar_swidan/CLionProjects/SimpleShell/main.c
+stdio.h
+-
+zconf.h
+-
+stdlib.h
+-
+
+/home/omar_swidan/CLionProjects/SimpleShell/shell.c
+shell.h
+/home/omar_swidan/CLionProjects/SimpleShell/shell.h
+
+/home/omar_swidan/CLionProjects/SimpleShell/shell.h
+
