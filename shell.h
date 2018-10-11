@@ -5,4 +5,6 @@
 #ifndef SIMPLESHELL_SHELL_H
 #define SIMPLESHELL_SHELL_H
 
+void startShell();
+
 #endif //SIMPLESHELL_SHELL_H

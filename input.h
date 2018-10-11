@@ -6,6 +6,6 @@
 #define SIMPLESHELL_INPUT_H
 #define MAX 100
 #define delimiter "\n"
-char * getInput();
-char * tokenizer(char * command);
+char ** getInput();
+char ** tokenizer(char * command);
 #endif //SIMPLESHELL_INPUT_H
