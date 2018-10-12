@@ -5,12 +5,15 @@
 #include "shell.h"
 
 void childLogger(int signum){
-    fprintf(fopen("./child process log","a"),"Child process terminated \n");
+    FILE *childFile=fopen("./child process log","a");
+    fprintf(childFile,"Child process terminated \n");
+    fflush(childFile);
+
 }
 int main() {
 
 
-    signal(SIGCHLD,childLogger);
+    signal(SIGCHLD,childLogger);//set the signal handler to the "SIGCHLD" signal
     startShell();
 
     return 0;

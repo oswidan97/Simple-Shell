@@ -3,6 +3,7 @@
 
 CMakeFiles/SimpleShell.dir/input.c.o: ../input.c
 CMakeFiles/SimpleShell.dir/input.c.o: ../input.h
+CMakeFiles/SimpleShell.dir/input.c.o: ../tokenizer.h
 
 CMakeFiles/SimpleShell.dir/main.c.o: ../main.c
 CMakeFiles/SimpleShell.dir/main.c.o: ../shell.h
@@ -14,4 +15,7 @@ CMakeFiles/SimpleShell.dir/shell.c.o: ../input.h
 CMakeFiles/SimpleShell.dir/shell.c.o: ../process.h
 CMakeFiles/SimpleShell.dir/shell.c.o: ../shell.c
 CMakeFiles/SimpleShell.dir/shell.c.o: ../shell.h
+
+CMakeFiles/SimpleShell.dir/tokenizer.c.o: ../tokenizer.c
+CMakeFiles/SimpleShell.dir/tokenizer.c.o: ../tokenizer.h
 

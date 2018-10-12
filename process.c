@@ -20,6 +20,7 @@ void executeInForeground(char *command, char **args) {
 }
 
 void executeInBackground(char *command, char **args) {
+    args[1]='\0';
     int pid=fork();
     if(!pid) {//execute using the child process and don't wait with the parent process
         execvp(command, args);
@@ -34,7 +35,7 @@ void execute(char *command, char **args) {
     if (strcmp(args[0],"exit")==0)
         exit(0);
     else if (args[1]!=NULL&&strcmp(args[1],"&")==0) //execute in background if '&' is specified in the arguments
-        executeInBackground(command,args);
+        executeInBackground(command, args);
     else executeInForeground(command,args);
 
 }

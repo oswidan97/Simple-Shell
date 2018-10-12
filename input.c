@@ -3,6 +3,7 @@
 //
 
 #include "input.h"
+#include "tokenizer.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -23,7 +24,7 @@ char ** getInput(){
     return tokenizer(commandAsPointer);
 }
 char ** tokenizer(char * command){
-        
+
     //allocate an array of characters
     char **tokens=malloc(MAX* sizeof(char **));
     //tokenize the command with '\n' as a delimeter
@@ -32,7 +33,6 @@ char ** tokenizer(char * command){
     int i=0;
     while(token!=NULL){
 
-        //printf("%s..",token);
         tokens[i]= token;
         token=strtok(NULL,delimiter);
 
@@ -40,6 +40,8 @@ char ** tokenizer(char * command){
     }
     tokens[i-1][strlen(tokens[i-1])-1]='\0';//removing the '\n' from the last string
 
+    if (strcmp(tokens[i-1],"")==0)//handling extra spaces entered
+        tokens[i-1]='\0';
 
 
 

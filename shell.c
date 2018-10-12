@@ -12,17 +12,17 @@
 void startShell() {
 
 
-
-    //while(1) {
-        char **tokenizedInput = getInput();
+    char **tokenizedInput;
+    while(1) {
+        printf(">>");
+        tokenizedInput = getInput();
         execute(tokenizedInput[0], tokenizedInput);
 
-   // }
+    }
 //    for (int i = 0; i < MAX; ++i) {
 //        if (tokenizedInput[i] == NULL)
 //            break;
-//        printf("%s..", tokenizedInput[i]);
-//        printf("%d\n",i);
+//        printf("%s9", tokenizedInput[i]);
 //    }
 
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/omar_swidan/CLionProjects/SimpleShell/main.c" "/home/omar_swidan/CLionProjects/SimpleShell/cmake-build-debug/CMakeFiles/SimpleShell.dir/main.c.o"
   "/home/omar_swidan/CLionProjects/SimpleShell/process.c" "/home/omar_swidan/CLionProjects/SimpleShell/cmake-build-debug/CMakeFiles/SimpleShell.dir/process.c.o"
   "/home/omar_swidan/CLionProjects/SimpleShell/shell.c" "/home/omar_swidan/CLionProjects/SimpleShell/cmake-build-debug/CMakeFiles/SimpleShell.dir/shell.c.o"
+  "/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.c" "/home/omar_swidan/CLionProjects/SimpleShell/cmake-build-debug/CMakeFiles/SimpleShell.dir/tokenizer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
