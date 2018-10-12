@@ -32,11 +32,15 @@ char ** tokenizer(char * command){
     int i=0;
     while(token!=NULL){
 
+        //printf("%s..",token);
         tokens[i]= token;
         token=strtok(NULL,delimiter);
 
         i++;
     }
+    tokens[i-1][strlen(tokens[i-1])-1]='\0';//removing the '\n' from the last string
+
+
 
 
 

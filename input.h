@@ -5,7 +5,7 @@
 #ifndef SIMPLESHELL_INPUT_H
 #define SIMPLESHELL_INPUT_H
 #define MAX 100
-#define delimiter "\n"
+#define delimiter " "
 char ** getInput();
 char ** tokenizer(char * command);
 #endif //SIMPLESHELL_INPUT_H

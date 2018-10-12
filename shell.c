@@ -13,16 +13,18 @@ void startShell() {
 
 
 
-    char **tokenizedInput = getInput();
-    //execute(tokenizedInput[0], tokenizedInput);
-    executeInForeground(tokenizedInput[0],tokenizedInput);
-    //executeInBackground(tokenizedInput[0],tokenizedInput);
+    //while(1) {
+        char **tokenizedInput = getInput();
+        execute(tokenizedInput[0], tokenizedInput);
 
-    for (int i = 0; i < MAX; ++i) {
-        if (tokenizedInput[i] == NULL)
-            break;
-        printf("%s", tokenizedInput[i]);
-    }
+   // }
+//    for (int i = 0; i < MAX; ++i) {
+//        if (tokenizedInput[i] == NULL)
+//            break;
+//        printf("%s..", tokenizedInput[i]);
+//        printf("%d\n",i);
+//    }
+
 
     free(tokenizedInput);
 }

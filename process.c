@@ -33,7 +33,7 @@ void execute(char *command, char **args) {
 
     if (strcmp(args[0],"exit")==0)
         exit(0);
-    else if (strcmp(args[1],"&")==0) //execute in background if '&' is specified in the arguments
+    else if (args[1]!=NULL&&strcmp(args[1],"&")==0) //execute in background if '&' is specified in the arguments
         executeInBackground(command,args);
     else executeInForeground(command,args);
 
