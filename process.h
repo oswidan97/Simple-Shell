@@ -9,5 +9,6 @@ void execute(char *command,char **args);
 void executeInForeground(char *command,char **args);
 
 void executeInBackground(char *command,char **args);
+int getColCount(char **args);
 
 #endif //SIMPLESHELL_PROCESS_H

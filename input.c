@@ -3,7 +3,6 @@
 //
 
 #include "input.h"
-#include "tokenizer.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

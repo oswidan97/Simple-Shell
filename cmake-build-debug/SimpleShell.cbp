@@ -105,12 +105,6 @@
 		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/shell.h">
 			<Option target="SimpleShell"/>
 		</Unit>
-		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.c">
-			<Option target="SimpleShell"/>
-		</Unit>
-		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.h">
-			<Option target="SimpleShell"/>
-		</Unit>
 		<Unit filename="/home/omar_swidan/CLionProjects/SimpleShell/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

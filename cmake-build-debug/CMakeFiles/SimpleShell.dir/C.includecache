@@ -9,8 +9,6 @@
 /home/omar_swidan/CLionProjects/SimpleShell/input.c
 input.h
 /home/omar_swidan/CLionProjects/SimpleShell/input.h
-tokenizer.h
-/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.h
 stdio.h
 -
 string.h
@@ -22,10 +20,6 @@ stdlib.h
 
 /home/omar_swidan/CLionProjects/SimpleShell/main.c
 stdio.h
--
-zconf.h
--
-stdlib.h
 -
 signal.h
 -
@@ -41,8 +35,6 @@ string.h
 -
 stdlib.h
 -
-stdio.h
--
 process.h
 /home/omar_swidan/CLionProjects/SimpleShell/process.h
 
@@ -53,8 +45,6 @@ stdio.h
 -
 stdlib.h
 -
-zconf.h
--
 shell.h
 /home/omar_swidan/CLionProjects/SimpleShell/shell.h
 input.h
@@ -63,18 +53,4 @@ process.h
 /home/omar_swidan/CLionProjects/SimpleShell/process.h
 
 /home/omar_swidan/CLionProjects/SimpleShell/shell.h
-
-/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.c
-zconf.h
--
-string.h
--
-stdlib.h
--
-stdio.h
--
-tokenizer.h
-/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.h
-
-/home/omar_swidan/CLionProjects/SimpleShell/tokenizer.h
 

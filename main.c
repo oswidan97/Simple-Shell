@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <zconf.h>
-#include <stdlib.h>
 #include <signal.h>
 #include "shell.h"
 

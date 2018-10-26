@@ -231,33 +231,6 @@ shell.c.s:
 	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/shell.c.s
 .PHONY : shell.c.s
 
-tokenizer.o: tokenizer.c.o
-
-.PHONY : tokenizer.o
-
-# target to build an object file
-tokenizer.c.o:
-	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/tokenizer.c.o
-.PHONY : tokenizer.c.o
-
-tokenizer.i: tokenizer.c.i
-
-.PHONY : tokenizer.i
-
-# target to preprocess a source file
-tokenizer.c.i:
-	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/tokenizer.c.i
-.PHONY : tokenizer.c.i
-
-tokenizer.s: tokenizer.c.s
-
-.PHONY : tokenizer.s
-
-# target to generate assembly for a file
-tokenizer.c.s:
-	$(MAKE) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/tokenizer.c.s
-.PHONY : tokenizer.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -279,9 +252,6 @@ help:
 	@echo "... shell.o"
 	@echo "... shell.i"
 	@echo "... shell.s"
-	@echo "... tokenizer.o"
-	@echo "... tokenizer.i"
-	@echo "... tokenizer.s"
 .PHONY : help
 
 

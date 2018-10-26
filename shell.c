@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <zconf.h>
 #include "shell.h"
 #include "input.h"
 #include "process.h"
@@ -19,12 +18,6 @@ void startShell() {
         execute(tokenizedInput[0], tokenizedInput);
 
     }
-//    for (int i = 0; i < MAX; ++i) {
-//        if (tokenizedInput[i] == NULL)
-//            break;
-//        printf("%s9", tokenizedInput[i]);
-//    }
 
 
-    free(tokenizedInput);
 }
